@@ -15,6 +15,8 @@
 
     <properties>
         <junit.version>5.8.1</junit.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -33,7 +35,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <release>17</release>
+                    <release>20</release>
                 </configuration>
             </plugin>
         </plugins>
